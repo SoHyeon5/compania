@@ -1,0 +1,321 @@
+@media all and (min-width:1024px) and (max-width:2048px)/*(max-width:420px)*/{
+    
+    ul, li{
+        list-style: none;
+    }
+    header{
+        width:100%;
+        margin:auto;
+        padding:0;
+    }
+    #mob-searchBar{
+        display:none;
+    }
+
+    .menu-cycle, #menu-text, .menu-box{
+        display:block;
+    }
+    #topbanner_box{
+        background-color:rgba(252,194,124);
+        padding:1px;
+        color:rgba(14,71,100);
+        font-weight: bold;
+        font-family: 'Noto Serif KR', serif;
+        text-align:center;
+        margin:auto;
+    }
+    #topbanner{
+        display:inline-block;
+        padding-left:50px;
+    }
+    .topbanner_x{
+        background-color:rgba(252,194,124);
+        border:none;
+        float:right;
+        width:30px;
+        height:30px;
+        margin:15px;
+        padding-right:50px;
+    }
+    #mobiletap{
+        display:none;
+    }
+    /*#mobiletap{
+        border-radius: 10px;
+        box-shadow:15px 15px 15px rgba(0,0,0,0.1);
+        background-color:rgb(247, 247, 247);
+        width:300px;
+        float:left;
+        position: absolute;
+        z-index:9998;
+        padding-top:50px;
+    }
+    #mob-info>ul{
+        text-align:center;
+        padding:10px;
+    }
+    .mob-af{
+        display:none;
+    }
+    #mob-info>ul>li{
+        display:inline-block;
+        font-size:20px;
+        padding-right:20px;
+        padding-left:20px;
+    }
+    #mob-my>ul{
+        height:70px;
+        text-align:left;
+    }
+    .mob-myimg{
+        margin:7px;
+        float:left;
+        border:solid 1px green;
+        width:60px;
+        height:60px;
+    }
+    .mob-myname{
+        display:inline-block;
+        font-weight:bolder;
+        font-size:25px;
+        margin:7px;
+    }
+    .mob-welcome{
+        display:block;
+        padding-left:85px;
+    }
+    
+    #mob-menu>.mob-menu-text>p{
+        font-size:18px;
+        padding-top:10px;
+    }
+    .mob-menu-text_s{
+        display:none;
+    }
+    .mob-menu-text>li:hover>.mob-menu-text_s{
+        display:block;
+    }
+    .mob-menu-text>li{
+        padding:5px;
+    }*/
+    #mn-tap{
+        display:none;
+    }
+
+    #menu-text{
+        text-align:center;
+    }
+
+    /*#mn-tap{
+        text-align:center;
+        width: 50px;
+        height:50px;
+        float:left;
+        position: absolute;
+        z-index:9999;
+    }
+    #mn-tap>p>img{
+        padding:10px;
+        width:30px;
+        height:30px;    
+    }
+    .mob-btn_close{
+        display:none;
+    }*/
+
+
+    #mn-top{
+        margin-top:20px;
+        margin-bottom:20px;
+        padding:20px;
+        text-align:center;
+
+    }
+    #mn-logo{
+        float:left;
+        padding-left:20px;
+    }
+    #mn-info{
+        float:right;
+        padding-right:20px;
+    }
+    #bef-info, #aft-info{
+        display:block; /*web*/
+        margin-right:50px;
+        text-align:center;
+    }
+    #bef-info>li, #aft-info>li{
+        display:inline-block;
+        padding:5px;
+        
+    }
+    #bef-info>li>.login{
+        margin-left:10px;
+        margin-right:10px;
+        text-align:center;
+    }
+    #aft-info{
+        display:block;
+        margin:0;
+    }
+    #aft-admin{
+        text-align:left;
+        display:block;
+        margin:0;
+    }
+    #aft-admin>li{
+        display:inline-block;
+        padding:5px;
+    }
+    #aft-block{
+        padding:5px;
+        display:block;
+        text-align:left;
+    }
+
+    
+    .mob-searchtap_open{
+        display:none;
+    }
+    #mn-searchBar{
+        text-align:center;
+        display:block;
+        height:50px;
+        width:100%;
+    }
+    #mn-searchBar>form>.input_Search{
+        background-image:url('../images/searchbar.png');
+        background-size:350px 40px;
+        background-repeat:no-repeat;
+        width:350px;
+        height:40px;
+        border:none;
+    }
+    .btn_Search{
+        background-color:rgba(0,0,0,0);
+        border:solid 0px;
+        position: relative;
+        top:8px;
+        right:55px;
+    }
+
+
+    .menu-element-text{
+        font-size:1.1em;
+    }
+    .menu-element-text>li>.menu-element-text_s{
+        display:none;
+        position: absolute;
+    }
+    .menu-element-text>li>form>input{/*11.17*/
+        border:none;
+        font-size:1.1em;
+        background-color:white;
+    }
+    .menu-element-text>.living>input{/*11.18*/
+        border:none;
+        background-color:white;
+        font-size:1.1em;
+    }
+    #menu-text>ul>li>a>span:hover{
+        color:rgba(1,165,141);
+    }
+    #menu-text>ul>li>a:hover{
+        color:rgba(248,113,93);
+    }
+    #menu-text>.menu-element-text>li{
+        padding:0 30px 10px 0;
+        display:inline-block;
+    }
+    
+
+    
+    .menu-element-text li:hover>.menu-element-text_s{
+        display:block;
+        position: absolute;
+    }
+    .menu-element-text_s{
+        z-index:9999;
+        display:inline;
+        width:150px;
+        padding:0;
+        background-color:rgba(248,113,93);
+        border-radius:10px;
+        box-shadow:10px 10px 25px rgba(0,0,0,0.2);
+        margin:10px -50px 50px 0;
+    }
+    .menu-element-text_s>form>input{/*11.17*/
+        border:none;
+        background-color:rgba(248,113,93);
+        color:white;
+        font-size:15px;
+        padding-top:15px;
+    }
+    .menu-element-text_s>li{
+        padding:10px;    
+    }
+    .menu-element-text_s>li:hover{
+        font-weight:bold;
+    }
+
+    .menu-cycle{
+        text-align:center;
+    }
+    .menu-cycle>div{
+        padding:10px;
+        display:inline-block;
+        margin:auto;
+    }
+    .menu-cycle>div>form>button{
+        background-color:white;
+        border:none;
+    }
+    .menu-cycle>div>form>button>img{
+        width:120px;
+        height:120px;
+    }
+
+
+
+
+
+    .menu-box>div>p>a>button{
+        background-color:white;
+        border:solid 1px rgba(180,180,180);
+        width:200px;
+        height:50px;
+    }
+    .menu-box>div{
+        display:none;
+        text-align:center;
+        margin-bottom:10px;
+    }
+    .menu-box>div>p{
+        display:inline-block;
+    }
+    .menu-box>div>p>a>button{
+        color:rgba(180,180,180);
+        font-size:15px;
+    }
+    .menu-box>div>p>a>button:hover{
+        border:solid 1px black;
+        color:black;
+    }
+    .txbox-active{
+        border:solid 1px black;
+        color:black;
+    }
+    
+    
+    #menu-text{
+        margin-bottom:30px;
+    }
+    
+    #mn-md>div{
+        text-align:center;
+        margin:0 0 80px 0;
+    }
+    #mn-ProBanner{
+        text-align:center;
+    }
+}

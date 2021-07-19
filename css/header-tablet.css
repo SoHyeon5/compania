@@ -1,0 +1,231 @@
+@media all and (min-width:768px) and (max-width:1023px)/*(max-width:420px)*/{
+    a{
+        color:black;
+    }
+    ul, li{
+        list-style: none;
+    }
+    header{
+        width:100%;
+        margin:auto;
+        padding:0;
+    }
+    #aft-admin{
+        display:none;
+    }
+    #mn-searchBar{
+        display:none;
+    }
+
+
+    .menu-cycle, #menu-text, .menu-box, #mn-info{
+        display:none;
+    }
+    #topbanner_box{
+        background-color:rgba(252,194,124);
+        padding:1px;
+        color:rgba(14,71,100);
+        font-weight: bold;
+        font-family: 'Noto Serif KR', serif;
+        text-align:center;
+        margin:auto;
+    }
+    #topbanner{
+        display:inline-block;
+        padding-left:20px;
+    }
+    .topbanner_x{
+        float:right;
+        padding-right:20px;
+    }
+    #mobiletap{
+        display:none;
+    }
+    #mobiletap{
+        border-radius: 10px;
+        box-shadow:15px 15px 15px rgba(0,0,0,0.1);
+        background-color:rgb(247, 247, 247);
+        width:300px;
+        float:left;
+        position: absolute;
+        z-index:9998;
+        padding-top:50px;
+    }
+    #mob-info>ul{
+        text-align:center;
+        padding:10px;
+    }
+    #mob-info>.mob-bf>li{
+        font-size:20px;
+        display:inline-block;
+        margin:10px;
+        margin-bottom:-10px;
+    }
+    .mob-myinfo{
+        float:right;
+        font-size:20px;
+        margin-top:-35px;
+    }
+    #mob-my>ul{
+        height:75px;
+        text-align:left;
+    }
+    .mob-adminmode{
+        border:none;
+        background-color:rgba(0,0,0,0.5);
+        text-align:center;
+        font-size:19px;
+        margin:10px;
+        padding-top:3px;
+        padding-bottom:3px;
+    }
+    .mob-adminmode>a{
+        color:white;
+    }
+    .mob-myimg{
+        margin:7px;
+        float:left;
+        border:solid 1px green;
+        width:60px;
+        height:60px;
+    }
+    .mob-myname{
+        display:inline-block;
+        font-weight:bolder;
+        font-size:20px;
+        margin:7px;
+    }
+    .mob-welcome{
+        display:inline-block;
+        margin-left:7px
+    }
+    .mob-logout{
+        display:inline-block;
+        margin-left:55px;
+        font-size:15px;
+    }
+
+    #mob-menu{
+        margin-left:20px;
+    }
+    #mob-menu>.mob-menu-text>p{
+        font-size:18px;
+        padding-top:10px;
+    }
+    .mob-menu-text>li>form>input{
+        border:none;
+        background-color:rgba(247,247,247);
+        margin-bottom:-15px;
+    }
+    .mob-menu-text>.living>.inputtx{ /*수정 11.18*/
+        border:none;
+        background-color:rgba(247,247,247);
+    } 
+    .inputtx{
+        font-size:17px;
+    }
+    .inputtx_s{
+        font-size:16px;
+    }
+    .mob-menu-text_s>li>form>input{
+        background-color:rgba(247,247,247);
+        border:none;
+        display:none;
+        margin-bottom:-15px;
+        margin-left:10px;
+    }
+   .mob-menu-text>li:hover>.mob-menu-text_s>li>form>input{
+        display:block;
+    }
+    .mob-menu-text>li{
+        padding:5px;
+    }
+    .lastmenu{
+        margin-bottom:40px;/* 수정 11.18 */
+        color: red;
+        font-size:18px;
+    }
+    #mn-tap{
+        text-align:center;
+        width: 50px;
+        height:50px;
+        float:left;
+        position: absolute;
+        z-index:9999;
+    }
+    #mn-tap>p>img{
+        padding:10px;
+        width:30px;
+        height:30px;    
+    }
+    .mob-btn_close{
+        display:none;
+    }
+    .menu-bottom{
+        margin-bottom:20px;
+    }
+
+
+    #mn-top{
+        margin:auto;
+        text-align:center;
+    }
+    #mn-logo{
+        margin:auto;
+        padding:30px;  
+    }
+    .mob-searchtap_open{
+        border:none;
+        background-color:white;
+        background-image:url('../images/searchbtn-s.png');
+        background-size:40px 40px;
+        background-repeat: no-repeat;
+        width:50px;
+        height:50px;
+        float:right;
+    }
+    #mn-logo>a>img{
+        text-align:center;
+        margin:auto;
+    }
+    #bef-info{
+        display:none;
+        margin-left:-50px;
+        text-align:center;
+    }
+    #bef-info>li{
+        display:inline-block;
+        padding:5px;
+    }
+    #bef-info>li>.login{
+        margin-left:10px;
+        margin-right:10px;
+        text-align:center;
+    }
+    #aft-info{
+        display:none;
+    }
+
+    #mob-searchBar{
+        text-align:center;
+        padding-top:10px;
+        display:none;
+    }
+    #mob-searchBar>form>.input_Search{
+        background-image:url('../images/searchbar.png');
+        background-size:350px 40px;
+        background-repeat:no-repeat;
+        width:350px;
+        height:40px;
+        border:none;
+        margin-left:30px;
+    }
+    .btn_Search{
+        background-color:rgba(0,0,0,0);
+        border:solid 0px;
+        position: relative;
+        top:8px;
+        right:55px;
+    }
+
+}    

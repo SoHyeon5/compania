@@ -1,0 +1,222 @@
+@media all and (min-width:320px) and (max-width:767px)/*(max-width:420px)*/{
+
+    #mypage{
+        padding:20px;
+        margin-bottom:50px;
+    }
+    #mypage>h3{
+        font-size:25px;
+    }
+    .mypage-total{
+        padding:10px;
+        background-color:rgba(0,0,0,0.1);
+    }
+    #mypage-top{
+        text-align:center;
+    }
+    .my-img{
+        padding:15px;
+        background-color:white;
+        margin:10px;
+        padding-bottom:20px;
+    }
+    .my-img>img{
+        border:solid 1px black;
+        width:120px;
+        height:120px;
+        margin:auto;
+        border-radius: 100%;
+    }
+    .my-btn>button{
+        text-align:center;
+        width:60px;
+        height:25px;
+        border-radius:10px;
+        border:none;
+        background-color:rgba(179, 188, 235); 
+        color:white;
+        font-weight:bolder;
+        font-size:15px;
+        padding:2px;
+        margin-top:-45px;
+    }
+
+    #mypage-bottom{
+        padding-top:20px;
+        padding-bottom:40px;
+        background-color:white;
+        margin:10px;
+    }
+    .my-box{
+        margin-left:55px;
+    }
+    .my-box>p{
+        margin-bottom:10px;
+        font-size:17px;
+        font-weight: bolder;
+    }
+    .my-box>input{
+        border:solid 1.5px black;
+        width:90%;
+        height:45px;
+    }
+    .my-box>button{
+        width:60px;
+        height:25px;
+        margin-left:-75px;
+        border-radius:10px;
+        color:white;
+        border:none;
+        font-weight:bolder;
+        font-size:15px;
+        background-color:rgb(179, 188, 235); 
+    }
+}
+@media all and (min-width:768px) and (max-width:1023px)/*(max-width:420px)*/{
+
+    #mypage{
+        margin:40px 20% 100px 20%;
+        padding:10px;
+    }
+    #mypage>h3{
+        font-size:25px;
+    }
+    .mypage-total{
+        padding:10px;
+        background-color:rgba(0,0,0,0.1);
+    }
+    #mypage-top{
+        text-align:center;
+    }
+    .my-img{
+        padding:15px;
+        background-color:white;
+        margin:10px;
+        padding-bottom:20px;
+    }
+    .my-img>img{
+        border:solid 1px black;
+        width:120px;
+        height:120px;
+        margin:auto;
+        border-radius: 100%;
+    }
+    .my-btn>button{
+        text-align:center;
+        width:60px;
+        height:25px;
+        border-radius:10px;
+        border:none;
+        background-color:rgba(179, 188, 235); 
+        color:white;
+        font-weight:bolder;
+        font-size:15px;
+        padding:2px;
+        margin-top:-45px;
+    }
+
+    #mypage-bottom{
+        padding-top:20px;
+        padding-bottom:40px;
+        background-color:white;
+        margin:10px;
+    }
+    .my-box{
+        margin-left:55px;
+    }
+    .my-box>p{
+        margin-bottom:10px;
+        font-size:17px;
+        font-weight: bolder;
+    }
+    .my-box>input{
+        border:solid 1.5px black;
+        width:90%;
+        height:45px;
+    }
+    .my-box>button{
+        width:60px;
+        height:25px;
+        margin-left:-75px;
+        border-radius:10px;
+        color:white;
+        border:none;
+        font-weight:bolder;
+        font-size:15px;
+        background-color:rgb(179, 188, 235); 
+    }
+}
+@media all and (min-width:1024px) and (max-width:2048px)/*(max-width:420px)*/{
+
+    #mypage{
+        margin:40px 32% 200px 32%;
+        padding:10px;
+    }
+    #mypage>h3{
+        font-size:25px;
+    }
+    .mypage-total{
+        padding:10px;
+        background-color:rgba(0,0,0,0.1);
+    }
+    #mypage-top{
+        text-align:center;
+    }
+    .my-img{
+        padding:15px;
+        background-color:white;
+        margin:10px;
+        padding-bottom:20px;
+    }
+    .my-img>img{
+        border:solid 1px black;
+        width:120px;
+        height:120px;
+        margin:auto;
+        border-radius: 100%;
+    }
+    .my-btn>button{
+        text-align:center;
+        width:60px;
+        height:25px;
+        border-radius:10px;
+        border:none;
+        background-color:rgba(179, 188, 235); 
+        color:white;
+        font-weight:bolder;
+        font-size:15px;
+        padding:2px;
+        margin-top:-45px;
+    }
+
+    #mypage-bottom{
+        padding-top:20px;
+        padding-bottom:40px;
+        background-color:white;
+        margin:10px;
+    }
+    .my-box{
+        margin-left:55px;
+    }
+    .my-box>p{
+        margin-bottom:10px;
+        font-size:17px;
+        font-weight: bolder;
+    }
+    .my-box>input{
+        border:solid 1.5px black;
+        width:90%;
+        height:45px;
+    }
+    .my-box>button{
+        width:60px;
+        height:25px;
+        margin-left:-75px;
+        border-radius:10px;
+        color:white;
+        border:none;
+        font-weight:bolder;
+        font-size:15px;
+        background-color:rgb(179, 188, 235); 
+    }
+}

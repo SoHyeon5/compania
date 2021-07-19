@@ -1,0 +1,138 @@
+@media all and (min-width:320px) and (max-width:767px)/*(max-width:420px)*/{
+    #qna_box{
+        padding:10px;
+        margin-bottom:50px;
+    }
+    #qna_box>h3{
+        background-color:rgba(1,165,141);
+        border-radius: 5px;
+        padding:10px;
+        margin-left:20px;
+        color:white;
+    }
+    #admin_qna_form{
+        padding:20px;
+    }
+    #admin_qna_form>li>p{
+        display:inline-block;
+    }
+    .category>select{
+        width:200px;
+        height:30px;
+    }
+    .title>p>input{
+        width:570px;
+        height:35px;
+    }
+    .content>p>textarea{
+        width:570px;
+        height:600px;
+    }
+    .buttons{
+        margin:auto;
+        text-align:center;
+    }
+    .buttons>li{
+        margin-bottom:10px;
+    }
+    .buttons>li>button{
+        width:60px;
+        height:30px;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:1023px)/*(max-width:420px)*/{
+    #qna_box{
+        width:60%;
+        margin:auto;
+        padding:10px;
+        margin-bottom:70px;
+        margin-top:50px;
+    }
+    #qna_box>h3{
+        background-color:rgba(1,165,141);
+        border-radius: 5px;
+        padding:10px;
+        color:white;
+        margin-left:20px;
+        margin-bottom:0;
+    }
+    #admin_qna_form{
+        padding:20px;
+    }
+    #admin_qna_form>li>p{
+        display:inline-block;
+    }
+    .category>select{
+        width:200px;
+        height:30px;
+    }
+    .title>p>input{
+        width:570px;
+        height:35px;
+    }
+    .content>p>textarea{
+        width:570px;
+        height:600px;
+    }
+    .buttons{
+        margin:auto;
+        text-align:center;
+    }
+    .buttons>li{
+        margin-bottom:10px;
+    }
+    .buttons>li>button{
+        width:60px;
+        height:30px;
+    }
+}
+
+
+@media all and (min-width:1024px) and (max-width:2048px)/*(max-width:420px)*/{
+    #qna_box{
+        width:30%;
+        margin:auto;
+        padding:10px;
+        margin-bottom:70px;
+        margin-top:50px;
+    }
+    #qna_box>h3{
+        border-radius: 5px;
+        background-color:rgba(1,165,141);
+        padding:10px;
+        color:white;
+        margin-left:20px;
+        margin-bottom:0;
+    }
+    #admin_qna_form{
+        padding:20px;
+    }
+    #admin_qna_form>li>p{
+        display:inline-block;
+    }
+    .category>select{
+        width:200px;
+        height:30px;
+    }
+    .title>p>input{
+        width:570px;
+        height:35px;
+    }
+    .content>p>textarea{
+        width:570px;
+        height:600px;
+    }
+    .buttons{
+        margin:auto;
+        text-align:center;
+    }
+    .buttons>li{
+        margin-bottom:10px;
+    }
+    .buttons>li>button{
+        width:60px;
+        height:30px;
+    }
+}
+

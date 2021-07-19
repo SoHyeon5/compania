@@ -1,0 +1,137 @@
+
+#product_form-top{
+    margin:auto;
+    width:1200px;
+    height:500px;
+}
+#Pro-left{
+    float:left;
+}
+#Pro-left>.Pro_img{
+    width:300px;
+    height:300px;
+    margin:100px;
+}
+
+#Pro-right{
+    margin:auto;
+    width:800px;
+    margin-top:50px;
+    padding:50px;
+    text-align:center;
+}
+#Pro-right>input{
+    display:block;
+    border:none;
+}
+#Pro-right>.Pro_name{
+    font-size:30px;
+    width:450px;
+    font-weight:bolder;
+    color:black;
+    padding-bottom:15px;
+}
+#Pro-right>.Pro_name::placeholder{
+    color:black;
+    font-weight:bolder;
+}
+#Pro-right>.Pro_price{
+    font-size:25px;
+    color:rgba(231,88,12);
+    font-weight:bolder;
+}
+#Pro-right>.Pro_price::placeholder{
+    color:rgba(231,88,12);
+    font-weight:bolder;
+}
+#Pro-right>.Pro_orilgn{
+    font-size:20px;
+}
+#Pro-right>.Pro_table{
+    margin:10px;
+    padding:20px;
+    width:500px;
+    border-top:3px solid rgba(0,0,0,0.1);
+    border-bottom:3px solid rgba(0,0,0,0.1);
+}
+
+
+.Pro_heart{
+    margin:20px;
+    background-color:rgba(231,88,12);
+    color:white;
+    border:none;
+    width:180px;
+    height:40px;
+    font-size:20px;
+}
+
+
+#product_form-bottom{
+    margin:auto;
+    width:1200px;
+    height:2000px;
+}
+#Pro-category{
+    width:1200px;
+    padding:0;
+    margin:auto;
+}
+.search_category>li{
+    width:1160px;
+    font-size:20px;
+    display:inline-block;
+}
+.search_category>li>select{
+    width:200px;
+    height:30px;
+
+}
+.search_category>li>p{
+    display:inline-block;    
+}
+
+
+.product_infor{
+    border:1px solid black;
+}
+.product_infor>p{
+    font-size:20px;
+    margin-top:50px;
+    margin-left:50px;
+    font-weight: bolder;
+}
+.product_infor>textarea{
+    text-align:left;
+    padding:10px;
+    margin-left:50px;
+    font-size:20px;
+}
+.Pro_infor{
+    height:200px;
+}
+
+.ingre>ul>li{
+    margin-top:10px;
+    display:inline-block;
+    width:155px;
+    height:25px;
+    text-align:center;
+}
+.ingre>ul>li>input{
+    width:150px;
+    height:40px; 
+}
+.Pro_buttons{
+    text-align:center;
+}
+.Pro_buttons>li>button{
+    border:none;
+    background-color:rgba(1,165,141);
+    color:white;
+    width:300px;
+    height:50px;
+    margin:10px;
+}
+
+

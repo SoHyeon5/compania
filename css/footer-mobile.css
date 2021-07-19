@@ -1,0 +1,38 @@
+@media all and (min-width:320px) and (max-width:767px)/*(max-width:420px)*/{
+    ul, li{
+        list-style-type:none;
+        margin:0;
+        padding:0;
+    }
+    hr{
+        display:none;
+    }
+    #ft-menu{
+        display:none;
+    }
+    footer{
+        font-family:'Noto Sans KR', sans-serif;
+        background-color:rgba(160,160,160);
+        height:150px;
+        text-align:center;
+        padding-top:20px;
+    }
+
+    #ft-ex{
+        color:rgba(30,60,89);
+        height:150px;
+        text-align:center;
+        margin:auto;
+    }
+    #ft-ex>p{
+        font-weight:bolder;
+        text-align:center;
+        padding:0;
+        margin:20px;
+    }
+    #ft-ex>ul>li{
+        display:inline-block;
+        padding:5px;
+    }
+    
+}    

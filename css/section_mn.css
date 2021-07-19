@@ -1,0 +1,44 @@
+section{
+    margin:auto;
+}
+#product{
+    text-align:center;
+}
+#product>.pro-line>div{
+    display:inline-block;
+    padding:50 20 50 20px;
+}
+#product>.pro-line_back>div{
+    display:inline-block;
+    padding:50 20 50 20px;
+}
+#product>.pro-line_back{
+    background-color:rgba(0,0,0,0.1);
+}
+.pro_img{
+    width:230px;
+    height:230px;
+    border:solid 1px black;
+}
+
+.pro-line_name{
+    font-family:'Noto Serif KR', serif;
+    margin:10 0 0 0;
+    font-size:30px;
+    font-weight: bold;
+    padding:30 0 0 0;
+    
+}
+.pro1>p{
+    font-size:1.1em;
+    text-align:left;
+    font-family:'Noto Sans KR', sans-serif;
+}
+.pro1>.pro_price{
+    font-size:15px;
+    font-weight:bold;
+}
+#product-banner{
+    margin:auto;
+    text-align:center;
+}

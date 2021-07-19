@@ -1,0 +1,125 @@
+@media all and (min-width:320px) and (max-width:767px)/*(max-width:420px)*/{
+
+    #QnAone_box{
+        margin:10px;
+        margin-bottom:50px;
+    }
+    #view_content{
+        margin:auto;
+        width:90%;
+        padding:20px;
+    }
+    #view_content>li{
+        padding-bottom:10px;
+    }
+    .date{
+        float:right;
+    }
+    .title{
+        margin-top:30px;
+        font-size:18px;
+    }
+    .content>div{
+        border:solid 1px black;
+        margin-bottom:10px;
+        padding:10px;
+        font-size:15px;
+    }
+    .answer>div{
+        border:solid 1px black;
+        padding:10px;
+        font-size:15px;
+    }
+    .buttons{
+        text-align:center;
+        padding:10px;
+    }
+    .buttons>li>button{
+        width:100px;
+    }
+}
+@media all and (min-width:768px) and (max-width:1023px)/*(max-width:420px)*/{
+
+    #QnAone_box{
+        margin:10px;
+        width:70%;
+        margin:auto;
+        margin-bottom:60px;
+    }
+    #view_content{
+        margin:auto;
+
+        padding:20px;
+    }
+    #view_content>li{
+        padding-bottom:10px;
+    }
+    .date{
+        float:right;
+    }
+    .title{
+        margin-top:30px;
+        font-size:18px;
+    }
+    .content>div{
+        border:solid 1px black;
+        margin-bottom:10px;
+        padding:10px;
+        font-size:15px;
+    }
+    .answer>div{
+        border:solid 1px black;
+        padding:10px;
+        font-size:15px;
+    }
+    .buttons{
+        text-align:center;
+        padding:10px;
+    }
+    .buttons>li>button{
+        width:100px;
+    }
+}
+@media all and (min-width:1024px) and (max-width:2048px)/*(max-width:420px)*/{
+
+    #QnAone_box{
+        margin:10px;
+        width:40%;
+        margin:auto;
+        margin-top:70px;
+        margin-bottom:100px;
+    }
+    #view_content{
+        margin:auto;
+
+        padding:20px;
+    }
+    #view_content>li{
+        padding-bottom:10px;
+    }
+    .date{
+        float:right;
+    }
+    .title{
+        margin-top:30px;
+        font-size:18px;
+    }
+    .content>div{
+        border:solid 1px black;
+        margin-bottom:10px;
+        padding:10px;
+        font-size:15px;
+    }
+    .answer>div{
+        border:solid 1px black;
+        padding:10px;
+        font-size:15px;
+    }
+    .buttons{
+        text-align:center;
+        padding:10px;
+    }
+    .buttons>li>button{
+        width:100px;
+    }
+}

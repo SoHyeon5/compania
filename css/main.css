@@ -1,0 +1,186 @@
+@media all and (min-width:320px) and (max-width:767px)/*(max-width:420px)*/{
+
+    #main-product{
+        padding:10px;
+    }
+    .pro-event{
+        text-align:center;
+        margin-bottom:100px;
+    }
+    .eventname{
+        text-align:center;
+        font-size:25px;
+        font-weight:bolder;
+    }
+    .pro-1{
+        text-align:center;
+        display:inline-block;
+        margin:20px;
+    }
+    .pro-event>form>input{
+        margin:10px;
+    }
+
+
+    .pro_img{
+        width:200px;
+        height:200px;
+
+        margin-bottom:10px;
+    }
+    .pro_name{
+        font-weight: bolder;
+        font-size:19px;
+        text-align:left;
+    }
+    .pro_intro{
+        text-align:left;
+        color:gray;
+        padding:0;
+        margin:0;
+    }
+    .pro_price{
+        font-weight: bolder;
+        float:left;
+        color:black;
+    }
+    .pro_dis{
+        font-weight:bolder;
+        color:red;
+        float:right;
+        padding-right:20px;
+    }
+    .sc-banner{
+        text-align:center;
+        margin-bottom:50px;
+        margin-top:-50px;
+    }
+    .sc-banner>img{
+        width:100%;
+    }
+}
+
+@media all and (min-width:768px) and (max-width:1023px)/*(max-width:420px)*/{
+
+    #main-product{
+        padding:10px;
+    }
+    .pro-event{
+        text-align:center;
+        margin-bottom:100px;
+    }
+    .eventname{
+        text-align:center;
+        font-size:25px;
+        font-weight:bolder;
+    }
+    .pro-1{
+        text-align:center;
+        display:inline-block;
+        margin:5px;
+    }
+    .pro-event>form>input{
+        margin:10px;
+    }
+
+    .pro_img{
+        width:200px;
+        height:200px;
+
+        margin-bottom:10px;
+    }
+    .pro_name{
+        font-weight: bolder;
+        font-size:19px;
+        text-align:left;
+    }
+    .pro_intro{
+        text-align:left;
+        color:gray;
+        padding:0;
+        margin:0;
+    }
+    .pro_price{
+        font-weight: bolder;
+        float:left;
+        color:black;
+    }
+    .pro_dis{
+        font-weight:bolder;
+        color:red;
+        float:right;
+        padding-right:20px;
+    }
+    .sc-banner{
+        text-align:center;
+        margin-bottom:100px;
+    }
+    .sc-banner>img{
+        width:100%;
+    }
+}
+
+@media all and (min-width:1024px) and (max-width:2048px)/*(max-width:420px)*/{
+
+    #main-product{
+        padding:10px;
+    }
+    .pro-event{
+        text-align:center;
+        margin-bottom:100px;
+    }
+    .eventname{
+        text-align:center;
+        font-size:25px;
+        font-weight:bolder;
+    }
+    .pro-1{
+        padding:20px;
+        width:12%;
+        height:450px;
+        text-align:center;
+        display:inline-block;
+        margin:30px;
+    }
+    .pro-event>form>input{
+        margin:10px;
+    }
+
+    .pro_img{
+        width:90%;
+        height:250px;
+
+        margin-bottom:10px;
+    }
+    .pro_name{
+        height:40px;
+        font-weight: bolder;
+        font-size:19px;
+        text-align:left;
+    }
+    .pro_intro{
+        text-align:left;
+        color:gray;
+        padding:0;
+        margin:0;
+    }
+    .pro_price{
+        font-weight: bolder;
+        float:left;
+        color:black;
+    }
+    .pro_dis{
+        font-weight:bolder;
+        color:red;
+        float:right;
+        padding-right:20px;
+    }
+    .sc-banner{
+        margin:auto;
+        text-align:center;
+        margin-bottom:100px;
+    }
+    .sc-banner>img{
+        width:80%;
+    }
+}
